@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Skill Training</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .box {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #1e3a8a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111827;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IT Skill Training</h1>
+  <p>Learn Digital Skills & Build Your Career</p>
+</header>
+
+<section>
+
+  <div class="box">
+    <h2>Welcome</h2>
+    <p>We provide training in Digital Marketing, SEO, Google Ads, Meta Ads, and Web Development.</p>
+  </div>
+
+  <div class="box">
+    <h2>Courses</h2>
+    <ul>
+      <li>Digital Marketing Basics</li>
+      <li>SEO Training</li>
+      <li>Google Ads & Meta Ads</li>
+      <li>Website Development</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Why Choose Us?</h2>
+    <p>Simple learning, practical examples, and step-by-step guidance for beginners.</p>
+  </div>
+
+  <div class="box">
+    <h2>Contact</h2>
+    <p>Email: itskilltraining@gmail.com</p>
+    <p>Phone: +91-8988180503</p>
+    <a class="btn" href="#">Join Now</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 IT Skill Training. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
