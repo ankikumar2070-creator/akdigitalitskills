@@ -100,3 +100,45 @@ footer{
     color:#0d6efd;
     margin-bottom:15px;
 }
+/* Services Section */
+
+.services{
+    padding:80px 10%;
+    background:#ffffff;
+}
+
+.services h2{
+    text-align:center;
+    font-size:38px;
+    color:#0d6efd;
+}
+
+.services p{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.service-card{
+    background:#f8f9fa;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+}
+
+.service-card:hover{
+    background:#0d6efd;
+    color:white;
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    margin-bottom:15px;
+}
