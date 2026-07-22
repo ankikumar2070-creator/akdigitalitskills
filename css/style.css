@@ -212,3 +212,47 @@ header{
 .card h3{
     margin-bottom:15px;
 }
+/* Sticky Header */
+header.sticky{
+    background:#ffffff;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+/* Active Menu */
+.nav-menu a.active{
+    color:#2563eb;
+    font-weight:600;
+}
+
+/* Fade Animation */
+.card{
+    opacity:0;
+    transform:translateY(40px);
+    transition:.7s;
+}
+
+.card.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Back To Top */
+#topBtn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#2563EB;
+    color:#fff;
+    cursor:pointer;
+    display:none;
+    font-size:22px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+#topBtn:hover{
+    background:#1D4ED8;
+}
