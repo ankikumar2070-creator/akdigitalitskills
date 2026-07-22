@@ -1,0 +1,166 @@
+/* ===========================
+   AK Digital IT Skills
+   Professional CSS
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Header */
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:36px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+/* Navigation */
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd43b;
+}
+
+/* Hero Section */
+
+.hero{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:50px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.hero h2{
+    font-size:40px;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:19px;
+    color:#555;
+    margin-bottom:20px;
+}
+
+/* Box Section */
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+/* Individual Box */
+
+.box{
+    flex:1;
+    min-width:280px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+}
+
+.box h3{
+    color:#0d6efd;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.box p{
+    color:#555;
+    font-size:17px;
+}
+
+/* Footer */
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    font-size:16px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+nav a{
+    margin:0;
+}
+
+.hero{
+    padding:30px;
+}
+
+.hero h2{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+section{
+    flex-direction:column;
+}
+
+}
