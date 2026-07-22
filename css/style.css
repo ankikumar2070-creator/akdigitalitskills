@@ -1,23 +1,221 @@
-body{
-font-family:Arial;
-margin:0;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
+
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+
+/* Navbar */
+
+nav{
+    width:100%;
+    background:#0d47a1;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo h2{
+    color:white;
+}
+
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-size:16px;
+}
+
+
+.menu a:hover{
+    color:#ffeb3b;
+}
+
+
+
+/* Hero Section */
+
+.hero{
+    height:450px;
+    background:linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    text-align:center;
+    color:white;
+
+    padding-top:120px;
+}
+
+
+.hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+
+.hero p{
+    font-size:20px;
+}
+
+
+.hero button{
+
+    margin-top:30px;
+    padding:12px 30px;
+    border:none;
+    background:#ff9800;
+    color:white;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+
+.hero button:hover{
+
+    background:#e65100;
+
+}
+
+
+
+
+/* Sections */
+
+.skills,
+.courses{
+
+    padding:50px 8%;
+    text-align:center;
+
+}
+
+
+.skills h2,
+.courses h2{
+
+    font-size:32px;
+    margin-bottom:30px;
+
+}
+
+
+
+
+/* Cards */
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+
+.card{
+
+    background:white;
+    width:280px;
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.card h3{
+
+    color:#0d47a1;
+    margin-bottom:15px;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+    transition:0.3s;
+
+}
+
+
+
+/* Footer */
+
+
+footer{
+
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:768px){
 
 
 nav{
-background:#111;
-padding:20px;
+
+    flex-direction:column;
+
 }
 
 
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
+.menu{
+
+    margin-top:15px;
+
 }
 
 
-h1{
-text-align:center;
-margin-top:50px;
+.menu a{
+
+    display:block;
+    margin:10px;
+
+}
+
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
 }
