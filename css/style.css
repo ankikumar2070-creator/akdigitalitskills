@@ -92,8 +92,20 @@ header{
 /* ================= Hero ================= */
 
 .hero{
-    padding:150px 0 100px;
-    background:linear-gradient(135deg,#eff6ff,#ffffff);
+    .hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:60px;
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+}
+
+.hero-img img{
+    width:420px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+}
 }
 
 .hero .container{
