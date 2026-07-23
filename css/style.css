@@ -636,3 +636,20 @@ border-radius:10px;
 margin-bottom:15px;
 
 }
+body {
+    background: #0f172a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background: linear-gradient(45deg,#2563eb,#9333ea);
+    border-radius: 30px;
+    color:white;
+    padding:12px 25px;
+}
+
+.card {
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
